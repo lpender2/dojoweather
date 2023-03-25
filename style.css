@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.header {
+    background-color: lightblue;
+    color: white;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 100px;
+    display: flex;
+    align-items: center; 
+
+}
+
+.navTitle {
+    padding-left: 100px;
+    padding-right: 300px; 
+    font-size: larger;
+}
+
+.navLinks {
+    display: flex;
+    font-size: large;
+}
+
+.navLinks h2 {
+    padding-right: 50px;
+}
+
+.main {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.row {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.top {
+    border-bottom: solid black;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 30px;       
+}
+
+.toptitle {
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.righttop {
+    display: flex;
+    align-items: center;
+}
+
+.righttop p {
+    padding-right: 10px;
+    font-size: large;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.box h3{
+    font-size: x-large;
+}
+
+.box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    padding: 10px;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p{
+    margin-bottom: 10px;
+}
+
+.temps {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.temps #high {
+    color: red;
+}
+
+.temps #low {
+    color: blue;
+}
+
+.bottom {
+    display: flex;
+    padding: 20px;
+    border: solid black 2px;
+    position: fixed;
+    margin-right: 30px;
+}
+
+.cookietime {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.bottom #cookie {
+    margin-right: 30px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.btn {
+    height: 35px;
+    width: 75px;
+    background-color: lightblue;
+    color: black;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-top: 20px;
+}
+
